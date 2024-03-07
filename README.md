@@ -22,8 +22,16 @@ Em geral, CSS serve para:
 
 #### Inline
 
+O css é aplicado diretamente em cada tag Html
+
 #### Interna/Onpage
 
-#### Externa
+O CSS é criado usando regras (com seletores, propriedades, valores) dentro da própria página que queremos formatar.
+
+As regras vão valer para todos os elementos/tags desta página.
+
+#### Externa (mais usada!)
+
+É criado um arquivo de extensão CSs dedicando às regras de formataçãp. Este arquivo é então "conectado" às paginas HTML.
 
 
