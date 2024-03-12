@@ -1,0 +1,19 @@
+/* Arquivo exclusivo para regras e recursos da linguagem CSS */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: lightslategray;
+}
+h1{
+   color: white;
+    border: 20px;
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+    border-radius: 100px;
+}
+hr{ 
+    height: 2px;
+    background-color: black;
+    border: none;
+}
