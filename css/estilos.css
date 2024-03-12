@@ -9,10 +9,32 @@ body {
     /* back-ground=attachment: deixa a imagem parada na tela */
 }
 div {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.548);
     width: 70%;
     margin: auto;
+    border-radius: 20px;
+
+    /* espaçamento interno */
+    padding: 16px;
+
+    /* caixa de sombras */
+    box-shadow: rgb(0, 55, 255) 5px 5px 10px, red -5px -5px 10px;
 
 }
 
 img { max-width: 100%;}
+
+figure {text-align: center;}
+
+h1 {
+    font-family: impact, Verdana, arial, sans-serif;
+    background-color: rgba(6, 6, 6, 0.617);
+    color: rgb(221, 221, 221);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: red 10px 5px 5px, blue -10px -5px 5px;
+}
