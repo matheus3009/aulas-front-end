@@ -38,3 +38,12 @@ h1 {
     border-top-right-radius: 10px;
     text-shadow: red 10px 5px 5px, blue -10px -5px 5px;
 }
+
+h2 {
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-style: solid;
+    border-left-width: 20px;
+    padding-left: 10px;
+}
