@@ -37,6 +37,9 @@ h1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-shadow: red 10px 5px 5px, blue -10px -5px 5px;
+    font-weight: normal;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 h2 {
@@ -46,4 +49,23 @@ h2 {
     border-left-style: solid;
     border-left-width: 20px;
     padding-left: 10px;
+}
+/* seletor de tags ( vale para todos os <a> */
+a {text-decoration: none;}
+
+
+/* Seletor Descendente */
+
+nav a {color: blue;}
+
+figure img {
+    transform: scale(0.9);
+    transition: 1s;
+    filter: grayscale(100%);
+}
+/* Usando a pseudo-classe :hover
+(Quando passamos o mouse por cima */
+figure img:hover{
+    transform: scale(1) rotateX(360deg);
+    filter: grayscale(0);
 }
