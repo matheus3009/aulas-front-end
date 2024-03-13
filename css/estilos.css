@@ -69,3 +69,19 @@ figure img:hover{
     transform: scale(1) rotateX(360deg);
     filter: grayscale(0);
 }
+
+/* seletor agrupado usando , */
+p, li {
+    font-size: 18px;
+}
+
+/* seletor Classe */
+.centralizar { text-align: center; }
+.sombra { text-shadow: red 1px 1px 3px;}
+.sombra2 {text-shadow: blue 1px 1px 3px;}
+.destaque {
+    background-color: black;
+    color: white;
+    padding:  3px;
+    border-radius: 4px;
+}
