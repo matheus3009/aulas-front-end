@@ -34,6 +34,15 @@ As regras vão valer para todos os elementos/tags desta página.
 
 É criado um arquivo de extensão CSs dedicando às regras de formataçãp. Este arquivo é então "conectado" às paginas HTML.
 
+```css
+seletor { propriedade: valor;}
+
+seleltor {
+    propriedade1: valor;
+    propriedade2: valor;
+    PropriedadeN: valor;
+}
+```
 
 ---
 
