@@ -127,3 +127,42 @@ border-bottom-left-radius: 10px;
 nav a:last-child {
 border-bottom-right-radius: 10px;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li {
+    color: rgb(0, 0, 0);
+    list-style-type:upper-roman;
+
+}
+
+ul li::marker {
+    content: "👍";
+} 
+
+ul li:first-child {font-weight: bold;}
+ul li:last-child {font-style: italic;}
+ul li:nth-child(3) {color: black;}
+
+/* Cores alternadas */
+ul li:nth-child(even) { background-color: rgba(255, 0, 0, 0.554);}
+ul li:nth-child(odd) { background-color: rgba(0, 0, 255, 0.679);}
+
+details {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary { font-weight: bold;}
+
+summary::marker {content: "👉" ;}
+
+/* Seletor de Atributo
+somente quando o detils estiver aberto acontecerá a mudanças     */
+details[open] summary::marker {
+    content: "👇";
+}
