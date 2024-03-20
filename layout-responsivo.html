@@ -5,11 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout responsivo</title>
+    <style>
+/* 1) Regras de uso geral */
+        *{box-sizing: border-box;}
+
+        body {
+            font-family: Verdana;
+            background-color: lightblue;
+        }
+
+        .container{
+            background-color: white;
+            padding: 5px;
+            box-shadow: black 0 0 5px;
+        }
+
+        /* Regra de reset CSS 
+        É comum resetar valores de alguns elementos/propriedades visando evitar inconsistências nos resultados. */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2, p { padding: 4px;}
+
+        .topo {
+            background-color: black;
+            padding: 4px;
+        }
+
+        h1 {background-color: white;}
+
+        .menu {background-color: red;}
+
+        .conteudo {
+            padding: 4px;
+            background-color: rgb(252, 88, 88);
+        }
+
+        .um, .dois, .tres {border: solid 1px black;}
+
+        .um { background-color: white;}
+        .dois {background-color: red;}
+        .tres { background-color: white;}
+
+        .rodapé {background-color: red;}
+/* 2) Regras de uso condicional (com media Queries) */
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <header class="menu">
+        <header class="topo">
             <h1>site exemplos</h1>
             <nav class="menu">
                 <a href="">link</a>
@@ -30,9 +77,10 @@
             </article>
             <article class="tres">
                 <h2>três</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet accusamus dolore facilis laudantium hic quo. Optio dignissimos expedita deserunt unde?</p>
             </article>
         </main>
-        <footer>
+        <footer class="rodapé">
             <h2>Rodapé </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam.</p>
         </footer>
