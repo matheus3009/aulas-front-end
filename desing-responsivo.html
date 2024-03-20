@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design-responsivo</title>
+    <style>
+        /* Etapa 1: 
+        Regras de uso geral, ou seja, estilos que vão ser aplicados para telas pequenas e também para maiores. */
+    *{box-sizing: border-box;}
+
+    body {
+        font-family:  Verdana;
+        background-color: lightblue;
+    }
+
+    .exemplo {
+        background-color: white;
+        padding: 4px;
+        border-radius: 4px;
+    }
+
+    h1 {
+        color: darkblue;
+    }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: darkblue;
+    }
+
+    h2 {font-size: 20px;}
+
+
+    /*Etapa 2: 
+    Regras de uso condicional. ou seja, estilos que vão ser aplicados de acordo com determinadas condições (tamanhos de tela). */
+
+    </style>
+</head>
+
+<body>
+    <div class="exemplo">
+        <h1>Design responsivo (ou responsibilidade)</h1>
+        <hr>
+        <p>
+            Conjunto de tecnicas de desenvolvimento front-end visando a construção de sites em que o layout e a
+            experiência geral de uso funcionarem bem em dispositivos com telas em tama
+        </p>
+        <p>
+            existem <b>duas abordagens</b> para o desenvolvimento responsivo:
+        </p>
+
+        <h2>Mobile first(é o mais usado)</h2>
+        <p>
+            Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois
+            realizarmos ajustes para telas maiores.
+        </p>
+
+        <h2>Desktop first</h2>
+        <p>
+            Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos
+            ajustes para telas pequenas.
+        </p>
+    </div>
+</body>
+
+</html>

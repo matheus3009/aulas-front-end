@@ -25,15 +25,26 @@
 
 		}
 
-		#exemplo-flexbox{
+		#exemplo-flexbox {
 			width: 80%;
-			height: 600px;
+			height: 1100px;
 			margin: auto;
 			background-color: hotpink;
-	
+
 			display: flex;
-			justify-content: space-between;
+			/* justify-content
+			em direção padrão "row", se comporta como alinhamento horizontal.
+			
+			Se estiver na direção "column*, se comporta como alinhamento vertical*/
+
+			justify-content: flex-start;
+
+			/* Aling-itens funciona de forma contrária. Ou seja em modo "row" alinha verticalmente.Em modo "Column", alinha horizontalmente */
 			align-items: center;
+			
+			flex-direction: column; 
+			/* flex-rection base usa o Row
+			alinhamento horizontal */
 		}
 	</style>
 </head>
