@@ -99,16 +99,21 @@
 
             .conteudo {
                 display: flex;
-                gap: 10px;
+                
                 /* cria um espaço entre os itens */
+                /* Propriedade nova usada para espaçamento entre elementos flex.
+                Necessário ajustar largura e/ou altura dos elementos em que haverá espaçamento. */
+                /* gap: 10px; */
+
 
                 /* Habilitado a "quebra" da linha (row).
                 Ou seja, se não tiver mais espaço para encaixar lado a lado, acontecerá uma quebra (o elemento vai para a linha de baixo) */
                 flex-wrap: wrap;
+                justify-content: space-between;
             }
 
             .um {
-                width: 70%;
+                width: 69%;
             }
 
             .dois {
@@ -117,6 +122,7 @@
 
             .tres {
                 width: 100%;
+                margin-top:  1%;
             }
         }
     </style>
